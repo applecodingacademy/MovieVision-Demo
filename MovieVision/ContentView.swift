@@ -6,21 +6,32 @@
 //
 
 import SwiftUI
-import RealityKit
-import RealityKitContent
 
 struct ContentView: View {
+    @Environment(MoviesVM.self) private var moviesVM
+    
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
+        @Bindable var bvm = moviesVM
+        
+        NavigationSplitView {
+            List(selection: $bvm.selection) {
+                ForEach(moviesVM.movies) { movie in
+                    MovieRow(movie: movie)
+                }
+            }
+            .navigationTitle("Movies")
+        } detail: {
+            if let selection = moviesVM.selection {
+                MovieDetail(movie: selection)
+            } else {
+                ContentUnavailableView("Elige una película",
+                                       systemImage: "popcorn", description: Text("Por favor, seleccione una película en la barra lateral."))
+            }
         }
-        .padding()
     }
 }
 
 #Preview(windowStyle: .automatic) {
     ContentView()
+        .environment(MoviesVM(interactor: DataInteractorTest()))
 }

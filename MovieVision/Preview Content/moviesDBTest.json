@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1000,
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "runtime": 142,
+        "genre":
+        [
+            "Drama"
+        ],
+        "actors":
+        [
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gunton",
+            "William Sadler"
+        ],
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": 1001,
+        "title": "The Godfather",
+        "director": "Francis Ford Coppola",
+        "overview": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+        "runtime": 175,
+        "genre":
+        [
+            "Crime",
+            "Drama"
+        ],
+        "actors":
+        [
+            "Marlon Brando",
+            "Al Pacino",
+            "James Caan",
+            "Diane Keaton"
+        ],
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": 1002,
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "runtime": 152,
+        "genre":
+        [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "actors":
+        [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart",
+            "Michael Caine"
+        ],
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": 1003,
+        "title": "The Godfather: Part II",
+        "director": "Francis Ford Coppola",
+        "overview": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+        "runtime": 202,
+        "genre":
+        [
+            "Crime",
+            "Drama"
+        ],
+        "actors":
+        [
+            "Al Pacino",
+            "Robert De Niro",
+            "Robert Duvall",
+            "Diane Keaton"
+        ],
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": 1004,
+        "title": "12 Angry Men",
+        "director": "Sidney Lumet",
+        "overview": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+        "runtime": 96,
+        "genre":
+        [
+            "Crime",
+            "Drama"
+        ],
+        "actors":
+        [
+            "Henry Fonda",
+            "Lee J. Cobb",
+            "Martin Balsam",
+            "John Fiedler"
+        ],
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": 1005,
+        "title": "The Lord of the Rings: The Return of the King",
+        "director": "Peter Jackson",
+        "overview": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+        "runtime": 201,
+        "genre":
+        [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "actors":
+        [
+            "Elijah Wood",
+            "Viggo Mortensen",
+            "Ian McKellen",
+            "Orlando Bloom"
+        ],
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    }
+]
